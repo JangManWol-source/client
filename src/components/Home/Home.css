@@ -1,0 +1,87 @@
+.home-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    background-color: #fdfbec;
+    width: 1200px;
+}
+.button{
+    position: absolute;
+    z-index: 1;
+    bottom: -15px;
+    right: 75px;
+}
+.button button{
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: 
+    #fa8003;
+}
+.button button:hover{
+    background-color: #cc7000;
+}
+.full-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.full-menu button{
+    width: 500px;
+    height: auto;
+    padding: 1.5rem;
+    border: #e4163d solid 2px;
+    margin-bottom: 10px;
+    border-radius: 3rem;
+    color: #e4163d;
+    font-weight: 500;
+    font-size: 20px;
+}
+.full-menu img{
+    width: 500px;
+    height: auto;
+}
+
+@media screen and (max-width:1200px) {
+    .home{
+        height: auto;
+        width: 100%;
+    }
+    .full-menu button{
+        width: 100%;
+    }
+    .full-menu-btn{
+        width: 95%;
+    }
+    .full-menu img{
+        width: 95%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .button{
+        left: 0;
+        right: 0;
+        
+    }
+    .button button{
+        font-size: 10px;
+    }
+}
