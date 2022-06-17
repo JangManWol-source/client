@@ -12,27 +12,7 @@
     background-color: #fdfbec;
     width: 1200px;
 }
-.button{
-    position: absolute;
-    z-index: 1;
-    bottom: -15px;
-    right: 75px;
-}
-.button button{
-    padding: 1rem 1rem;
-    border: none;
-    outline: none;
-    border-radius: 1rem;
-    color: white;
-    font-weight: 700;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: 
-    #fa8003;
-}
-.button button:hover{
-    background-color: #cc7000;
-}
+
 .full-menu{
     display: flex;
     flex-direction: row;

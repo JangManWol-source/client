@@ -58,8 +58,7 @@ const HomeFoodList = (props) => {
         <div className='full-menu-btn'>
           <Link to={`/menus/Full Menu`}>
           <button>View Full Menu</button></Link>
-        </div>
-        <div>
+          
           <img src={info} alt="" />
         </div>
 
